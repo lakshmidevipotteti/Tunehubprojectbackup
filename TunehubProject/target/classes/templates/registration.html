@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+
+<link rel="stylesheet" type="text/css" href="registration.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+<h2>Registration Form</h2><br>
+<div class="form-container">
+
+<form action="/register" method="post">
+<div class="input-name">
+<i class="fa fa-user" ></i>
+
+<label>UserName</label>
+<input type="text" name="username" >
+</div><br>
+
+<div class="input-name">
+<i class="fa fa-envelope email" ></i>
+
+<label>Email</label>
+<input type="text" name="email"></div>
+<br>
+<div class="input-name">
+<i class="fa fa-lock lock" ></i>
+<label>Password</label>
+<input type="password"name="password"></div>
+<br>
+<div class="input-name">
+<label>Gender</label>
+
+
+<input type="radio"value="male" name="gender">
+<label>Male</label>
+<input type="radio"value="female"name="gender">
+
+<label>Female</label>
+<input type="radio"value="other"name="gender">
+<label>Other</label>
+<br><br>
+<div class="input-name">
+<label>Role</label>
+<input type="radio" value="admin" name="role">
+<label>Admin</label>
+<input type="radio" value="customer" name="role">
+<label>Customer</label><br>
+</div>
+<div class="input-name">
+<label>Address</label>
+<textarea name="address"></textarea><br><br>
+<input type="submit" value="SUBMIT">
+</div>
+
+</div>
+</form>
+</div>
+</div>
+
+</body>
+</html>
